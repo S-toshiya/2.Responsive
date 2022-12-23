@@ -1,0 +1,142 @@
+header {
+    height: 100vh;
+    background-image: url(./img/Mt.fuji.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.header-main {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.mene {
+    position: relative;
+}
+
+.header-main img {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    bottom: -30px;
+    left: 400px;
+}
+
+.main h2 {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.main-baiku {
+    width: 400px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.main-word {
+    display: flex;
+}
+
+.main-word p {
+    margin-left: 20px;
+}
+
+.jubilo {
+    display: flex;
+}
+
+.jubilo img {
+    width: 300px;
+    height: auto;
+}
+
+.goshuin {
+    display: flex;
+}
+
+.main p {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.box{
+    width: 500px;
+    height: 50px;
+    border: solid 1px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.contact{
+
+}
+@media screen and (max-width: 767px) {
+    h1{
+        text-align: center;
+    }
+
+    .header-main img {
+        left: 100px;
+        bottom: 100px;
+    }
+
+    .mene {
+        margin-top: 250px;
+    }
+
+
+.main h2 {
+    margin-left: 0px;
+    text-align: center;
+}
+
+.main-word {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main-word p{
+    margin-top: 30px;
+}
+
+.jubilo {
+    display: block;
+    position: relative;
+}
+
+.header-main {
+    font-size: 30px;
+}
+
+.character{
+    position: absolute;
+    left: 300px;
+    bottom: 350px;
+}
+.jubilo img{
+    width: 35%;
+    height: auto;
+}
+.rogo{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.jubilo p{
+margin-top: 20px;
+}
+}
